@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/index.js" defer></script>
+    <title>Emile Kost</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="menu hide">
+        <ul>
+            <li><button class="phone-menu-item" value="aboutme">ABOUT ME</button></li>
+            <li><button class="phone-menu-item" value="skills">SKILLS</button></li>
+            <li><button class="phone-menu-item" value="projects">PROJECTS</button></li>
+            <li><button class="phone-menu-item" value="contact">CONTACT</button></li>
+        </ul>
+        <button id="close-menu" class="close menu-btn-event">CLOSE</button>
+    </div>
+    <header>
+        <h4>EMILE KOST</h4>
+        <nav>
+            <ul id="side-menu">
+                <li><button class="menu-item" value="aboutme">ABOUT ME</button></li>
+                <li><button class="menu-item" value="skills">SKILLS</button></li>
+                <li><button class="menu-item" value="projects">PROJECTS</button></li>
+                <li><button class="menu-item" value="contact">CONTACT</button></li>
+            </ul>
+            <button class="menu-btn menu-btn-event">MENU</button>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h1>
+                <span>&lt HI THERE,</span>
+                <span>I LOVE TO</span>
+                <span>DEVELOP</span>
+                <span>WEBSITES &gt</span>
+            </h1>
+            <figure>
+                <img id="me-image" src="assets/emileprofile.png" alt="Photo of me">
+                <figcaption>
+                    <h4 class="myself-text">PS, YES I'AM A NERD</h4>
+                </figcaption>
+            </figure>
+        </section>
+        <section id="aboutme">
+            <h1>
+                <span>I HAVE BEEN</span>
+                <span>LEARNING AND BUILDING</span>
+                <span>FOR 4 YEARS,</span>
+                <span>TO BECOME ONE AWESOME</span>
+                <span id="aboutme-change-text">FRONTEND DEVELOPER</span>
+            </h1>
+            <ul id="tag-list">
+                <li>FRONTEND</li>
+                <li>BACKEND</li>
+                <li>UX DESIGN</li>
+                <li>ENTHOUSIASTIC</li>
+                <li>LOVE FOR CHEESY SOAP SERIES</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <div class="skills-header-container">
+                <h1>LOOK AT WHAT <span class="turn-blue">I</span> CAN DO.</h1>
+                <ul class="skills-list">
+                   
+                </ul>
+            </div>
+            <div class="skills-text-container">
+                <p id="skill-text">I learned to write good semantic HTML with user accessibility in mind to 
+                    use as less div's as possible :)
+                </p>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="projects-container">
+                <h1>PROJECTS</h1>
+                <ul id="projects-list">
+    
+                </ul>
+                <div class="project-btn-container">
+                    <button id="move-left" class="project-btn">< LEFT</button>
+                    <button id="move-right" class="project-btn">RIGHT ></button>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>
+                <span>< LET'S</span>
+                <span>TALK ></span>
+            </h1>
+            <a href="mailto:emilekost00@gmail.com" class="message-me">
+                <span>MESSAGE</span>
+                <span>ME</span>
+            </a>
+            <div class="test-container">
+              <div class="link-container">
+                <a href="https://www.linkedin.com/in/emile-kost-1417621b8/" target="_blank">LINKEDIN</a>
+                <a href="https://github.com/EmileKost" target="_blank">GITHUB</a>
+                <a href="https://www.hbomax.com/nl/nl/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ?gad=1&gclid=CjwKCAjwhdWkBhBZEiwA1ibLmDOSuX3lObmyfd1_moc2hJ2bOyinzl2UAGc_z8CuqLxGDwYQyN2oFBoCRssQAvD_BwE&gclsrc=aw.ds" target="_blank">FAV SOAP</a>
+              </div>
+              <button id="fly-up"><span>FLY BACK UP</span>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16.592" height="36" viewBox="0 0 16.592 36">
+                        <path id="Icon_open-arrow-left" data-name="Icon open-arrow-left" d="M13.5,0,0,8.4l13.5,8.2V9.955H36V6.637H13.5Z" transform="translate(16.592) rotate(90)" fill="#fffffe"/>
+                      </svg>
+                </span>
+              </button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
