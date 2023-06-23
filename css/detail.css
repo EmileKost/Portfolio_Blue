@@ -12,6 +12,11 @@ header {
     color: var(--color-blue);
 }
 
+header a img {
+    width: 30px;
+    height: auto;
+}
+
 main {
     margin-top: 20px;
     padding: 0px 30px;
