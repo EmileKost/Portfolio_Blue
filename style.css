@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'n27', sans-serif;
+}
+
+a, li, p, button, h4 {
+    font-family: 'n27-light', sans-serif;
+}
+
+:root {
+    --color-blue: #0019FF;
+    --color-white: #FFFFFE;
+    --color-black: #1C1D28;
+    --list-grey: #adb5bd;
+}
+
+@font-face {
+    font-family: 'n27';
+    src: url('./fonts/n27-regular.ttf');
+}
+
+@font-face {
+    font-family: 'n27-light';
+    src: url('./fonts/n27-light.ttf');
+}
+
