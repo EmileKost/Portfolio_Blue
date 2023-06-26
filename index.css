@@ -40,6 +40,12 @@ body {
     overflow-y: scroll;
 }
 
+body, html {
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
 header h4 {
     font-size: 22px;
     white-space: nowrap;
@@ -634,7 +640,7 @@ main {
 
 @media (max-width: 580px) {
     #intro h1 span {
-        font-size: 70px;
+        font-size: 60px;
     }
     .project-btn-container {
         display: none;
@@ -652,7 +658,7 @@ main {
     }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 510px) {
     #intro h1 span {
         font-size: 40px;
     }
