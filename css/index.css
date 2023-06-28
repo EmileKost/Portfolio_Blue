@@ -411,14 +411,6 @@ main {
     height: 360px;
 }
 
-@media (max-width: 425px) {
-    /* .project-item figure {
-        width: 100%;
-    } */
-    .project-item figure img {
-        width: 100%;
-    }
-}
 
 .project-item h2 {
     font-size: 20px;
