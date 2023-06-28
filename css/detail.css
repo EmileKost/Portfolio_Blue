@@ -135,7 +135,7 @@ footer {
 footer a {
     text-decoration: none;
     color: var(--color-white);
-    font-size: 80px;
+    font-size: 4em;
 }
 
 footer a:hover span:first-of-type {
@@ -149,7 +149,8 @@ footer a:hover span:nth-of-type(2) {
 
 footer a span {
     display: block;
-        transition: .75s;
+    white-space: nowrap;
+    transition: .75s;
 }
 
 footer a span:nth-of-type(2) {
@@ -162,12 +163,25 @@ footer a span:nth-of-type(2) {
     }
 }
 
+ 
 @media (max-width: 650px) {
     #tags li {
         font-size: 12px;
         padding: 3px 10px 3px 10px;
     }
 } 
+
+@media (max-width: 570px) {
+    footer a  {
+        font-size: 2em;
+    }
+    footer a span:nth-of-type(2) {
+        padding-left: 40px;
+    }
+    footer a:hover span:first-of-type {
+       padding-left: -10px;
+    } 
+}
 
 @media (max-width: 480px) {
     .title-container {

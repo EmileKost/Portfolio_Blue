@@ -49,7 +49,7 @@ const skillItems = [
     {
         title: 'HTML',
         value: 'html',
-        description: 'I learned to write good semantic HTML with user accessibility in mind to use as less divs as possible',
+        description: 'I learned to write good semantic HTML with user accessibility in mind to use as less divs as possible.',
         skillIndex: 1
     },
     {
@@ -249,9 +249,9 @@ moveLeftBtn.addEventListener('click', moveLeft);
 moveRightBtn.addEventListener('click', moveRight);
 document.addEventListener('keydown', (e) => {
     if(e.key === 'ArrowLeft') {
-        moveLeft();
-    } else if(e.key === 'ArrowRight') {
         moveRight();
+    } else if(e.key === 'ArrowRight') {
+        moveLeft();
     }
 })
 
