@@ -187,6 +187,7 @@ footer a span:nth-of-type(2) {
     .title-container {
         flex-direction: column;
         gap: 15px;
+        align-items: start;
     }
 }
 
